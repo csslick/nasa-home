@@ -9,17 +9,11 @@
   width: 100%;
   height: 800px;
   background: #ccc;
-  background-image: url('../images/ISS_astronaut.jpg');
+  background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0)), url('../images/ISS_astronaut.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
 }
-
-#main-title .title h1, p {
-  background: linear-gradient(to top left,
-  rgba(0,0,0,0.7), rgba(0,0,0,0.3));
-}
-
 #main-title .title p {
   font-size: 25px;
 }

@@ -1,23 +1,116 @@
 /* style.css */
 
-/* 버튼 줄내림 금지 */
-.btn {
-  white-space: nowrap;
+a {
+    text-decoration: none;
 }
 
-#main-title {
-  width: 100%;
-  height: 800px;
-  background: #ccc;
-  background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0)), url('../images/ISS_astronaut.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
+/* 모바일 배경처리 */
+@media screen and (max-width: 578px) {
+  nav {
+    background: #333;
+    padding: 20px !important;
+  }
 }
-#main-title .title p {
-  font-size: 25px;
+
+.btn {
+    white-space: nowrap;
+}
+
+section h2 {
+    font-weight: bold;
+}
+
+
+/* .container, .container-fluid {
+    outline: 1px solid #000;
+} */
+
+#main-title {
+    width: 100%;
+    height: 100vh;
+    background-color: #ccc;
+    background-image:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.918) 0%, rgba(255, 255, 255, 0) 100%), url(../images/ISS_astronaut.jpg);
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #main-title .title {
-  padding-top: 50px;
+    height: calc(100% - 90px);
 }
+
+#main-title .title p {
+    font-size: 25px;
+}
+
+#main-title .title {
+    padding-top: 50px;
+}
+
+/* #main-title .title iframe {
+    outline: 5px solid #fff;
+} */
+
+
+#community {
+    background-color: #000;
+    background-image: 
+        linear-gradient(rgba(0,0,0, 1), rgba(0,0,0,0.2)),
+        url('../images/cleveland_at_night.jpg');
+    background-size: cover;
+    /* 배경 고정 */
+    background-repeat: no-repeat;
+    /* background-attachment: contain; */
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.my-text-light {
+    color: #98daf1;
+}
+
+.my-text-dark {
+    color: #0b3d91;
+}
+#engage a .box1 {
+    position: relative;
+}
+#engage a .box1 h4{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+#engage a .box2 {
+    display: none;
+}
+
+@media (min-width:780px) {
+    #engage a {
+        width: 100%;
+        position: relative;
+    }   
+    
+    #engage a .box2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        outline: 1px solid black;
+        display: none;
+        background-color: #0b3d91;
+        color: #fff;
+        font-size: 16px;
+        height: 100%;
+        padding: 10px;
+    }
+    #engage a:hover >.box2{
+       display: block;
+    }
+    #engage a:hover >.box1{
+        visibility: hidden;
+     } 
+}
+
+
+ 

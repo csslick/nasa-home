@@ -80,7 +80,10 @@ section h2 {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    height: 15%;
+    background-color: rgba(37, 15, 236, 0.5);
+    margin-bottom: 15px;
+    padding: 5px;
 }
 #engage a .box2 {
     display: none;
@@ -95,7 +98,10 @@ section h2 {
         position: absolute;
         bottom: 0;
         width: 98%;
-        background-color: rgba(0,0,0,0.5);
+        height: 15%;
+        background-color: rgba(45, 30, 180, 0.808);
+        margin-bottom: 15px;
+        padding: 4%;
     }
     #engage a .box2 {
         position: absolute;

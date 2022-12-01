@@ -91,7 +91,12 @@ section h2 {
         width: 100%;
         position: relative;
     }   
-    
+    #engage a .box1 h4{
+        position: absolute;
+        bottom: 0;
+        width: 98%;
+        background-color: rgba(0,0,0,0.5);
+    }
     #engage a .box2 {
         position: absolute;
         left: 0;

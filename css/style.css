@@ -126,6 +126,7 @@ body {
   bottom: -8px;
   background: rgba(11, 60, 145, 1);
   transition: opacity 0.5s;
+  line-height: 2rem;
 }
 
 #community2 .container .row .col-4:hover .asd {
@@ -159,7 +160,8 @@ body {
   #community2 h4 {
     font-size: 14px !important;
   }
-  #community2 .asd {
+  #community2 a .asd {
     font-size: 10px !important;
+    line-height: 1.5rem;
   }
 }

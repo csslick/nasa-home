@@ -78,7 +78,8 @@ section h2 {
 /* fly with you 섹션 스타일입니다. */
 
 #fly {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
     url(../images/with-you-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -221,11 +222,11 @@ section h2 {
   #engage a .box1 h4{
       position: absolute;
       bottom: 0;
-      width: 98%;
-      height: 15%;
+      /* width: 98%; */
+      /* height: 15%; */
       background-color: rgba(45, 30, 180, 0.808);
-      margin-bottom: 15px;
-      padding: 4%;
+      /* margin-bottom: 15px; */
+      /* padding: 4%; */
   }
   #engage a .box2 {
       position: absolute;

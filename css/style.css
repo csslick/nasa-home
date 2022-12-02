@@ -26,7 +26,12 @@
 #main-title .title {
   padding-top: 50px;
 }
-
+.my-text-light {
+  color: #98daf1;
+}
+.my-text-dark {
+  color: #0b3d91;
+}
 /* we are power소개*/
 #exploration{
   background-image: 
